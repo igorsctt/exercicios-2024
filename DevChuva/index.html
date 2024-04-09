@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>DevChuva</title>
+</head>
+<body>
+    <nav id="menu-nav" class="menu-nav">
+        <button class="button-close"><span>&#10005;</span>close</button>
+        <ul>
+            <h1>SLACA 2019</h1>
+            <img src="./assets/logo.png" alt="logo-13slaca">
+            <li><a href="#">Apresentação</a></li>
+            <li><a href="#">Comitês</a></li>
+            <li><a href="#">Autores</a></li>
+            <li><a href="#">Eixos temáticos</a></li>
+            <li class="active"><a href="#">Trabalhos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button class="button-open">≡</button>
+        <div class="header-title">
+                <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+                <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
+                <p>ISSN: 1234-5678</p>
+        </div>
+        <div class="option-lang">
+            <button class="lang-selec"><i class="fas fa-globe"></i> PT, BR <i class="fas fa-caret-down"></i></button>
+            <ul class="select-content">
+                <li><i class="fas fa-globe"></i> EN, US</li>
+            </ul>
+        </div>
+        <div class="profile-login">
+                <div>
+                    <p>Bem vindo!</p>
+                    <p>alguem12@galoascience.com</p>
+                </div>
+                <div>
+                    <img src="./assets/foto-de-perfil.png" alt="icon-perfil">
+                    <img class="icon-notif" src="./assets/notification-badge.png" alt="contador-de-notificação">
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h2>
+            <div class="sec-container">
+                <div>
+                    <button><i class="fas fa-download"></i>Download</button>
+                    <button><i class="fas fa-star"></i></button>
+                    <button><img src="./assets/doi.png" alt="imagem-sigla-doi"></button>
+                </div>
+                <p>COMO CITAR ESSE TRABALHO?</p>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-info">
+                <p class="video-paragraph">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </p>
+                <video controls>
+                    <source src="./assets/developer-scott.mp4" type="video/mp4">
+                </video>
+                <div class="video-legend">
+                    <img src="./assets/foto-video.png" alt="perfil-autora">
+                    <div>
+                        <p class="video-name">Beatriz Christiane Melo</p>
+                        <p class="video-paragraphTwo">FCA / Universidade Estadual de Campinas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-details">
+                <h3>Detalhes</h3>
+                <div class="text-details">
+                    <p>Tipo de Apresentação:<b>Pôster</b><br>Eixo temático: <b>Alimentação e saúde (AS)</b><br>Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b></p>
+                    <p><b>Autores:</b><br>Galileo Galilei¹<br>Berta Lange de Morretes²<br>Isaac Newton³<br>Cesar Lattes¹<br>Stephen Hawking⁴</p>
+                    <p>¹Universidade Estadual de Campinas<br>²Universidade de São Paulo<br>³Instituto Nacional de Pesquisas Espaciais<br>⁴Universidade Federal do Rio de Janeiro</p>
+                </div>
+            </div>
+        </div>
+        <div class="summ-descrip" onclick="viewMore()">
+            <h3>Resumo</h3>
+            <div class="summ-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula <span id="points">...  <span style="color: #ED7839; font-weight: 700;">ver mais</span></span><span id="viewMore"> in sapien scelerisque, ac gravida eros vestibulum.<br><br>
+                Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.<br><br>
+                Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.<br><br> 
+                Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta pharetra felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero. Duis risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+            </div>
+        </div>
+        <div class="summ-descrip">
+            <h3>Discussões</h3>
+            <div class="discussions" id="discussions">
+                <div class="your-idea">
+                    <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
+                <div>
+                    <img src="./assets/icone1.png" alt="icon-de-mao-e-planta">
+                    <img src="./assets/icone2.png" alt="icon-Q-dentro-do-balão">
+                    <img src="./assets/icone3.png" alt="icon-pessoas-com-lampadas">
+                </div>
+                <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+                </div>
+                <hr>
+                <button class="createTopic" onclick="createTopic()">+ criar tópico</button>
+            </div>
+            <div class="comments">
+                <p class="subject">Assunto da pergunta aparece aqui</p>
+                <p class="name">Carlos Henrique Santos</p>
+                <p class="questions">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                <div class="card-footer">
+                    <i class="fas fa-ellipsis-v"></i>
+                    <img src="./assets/favoritar.png" alt="icon-favoritos">
+                    <p>1 like</p>
+                    <p>1 resposta</p>
+                </div>
+            </div>
+            <div class="comments" onclick="openAnswers()">
+                <p class="subject">Assunto da pergunta aparece aqui</p>
+                <p class="name">Carlos Henrique Santos</p>
+                <p class="questions">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo<span id="check-p">...</span><span id="check-text"> resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo?</span></p>
+                <div class="card-footer">
+                    <i class="fas fa-ellipsis-v"></i>
+                    <img src="./assets/favoritar.png" alt="icon-favoritos">
+                    <p><span id="like">1 like</span></p>
+                    <p><span id="answers">1 resposta</span></p>
+                </div>
+                <span id="topics-discussed">
+                    <div class="topics-discussed">
+                        <div>
+                            <p class="author">Adriano da Silva</p>
+                            <div>
+                                <p class="identification">Autor</p>
+                                <img class="check" src="./assets/simbol.png">
+                            </div>
+                        </div>
+                        <p class="author-answers"> 
+                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                        </p>
+                    </div>
+                    <div class="topics-discussed1">
+                        <div>
+                            <p class="author">Carlos Henrique Santos</p>
+                        </div>
+                        <p class="author-answers"> 
+                            Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo formativo situado impacto de processo formativo.<br><br>Obrigado pela resposta, muito interessante o seu trabalho! 
+                        </p>
+                    </div>
+                    <div class="topics-discussed">
+                        <div>
+                            <p class="author">Camila Ferreira Andrade</p>
+                            <div>
+                                <p class="identification">Coautor</p>
+                                <img class="check" src="./assets/simbol.png" alt="icon-simbolo-concluido">
+                            </div>
+                        </div>
+                        <p class="author-answers"> 
+                            Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.<br><br>Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                        </p>
+                    </div>
+                    <div class="topics-discussed">
+                        <div>
+                            <p class="author">Ana Carolina</p>
+                            <div>
+                                <p class="identification">Coautor</p>
+                                <img class="check" src="./assets/simbol.png" alt="icon-simbolo-concluido">
+                            </div>
+                        </div>
+                        <p class="author-answers"> 
+                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                        </p>
+                    </div>
+                </span>
+            </div>      
+        </div>
+    </main>
+
+    <footer id="footer-galoa">
+        <div class="galoa-footer">
+            <img src="./assets/galoa-logo.svg" alt="icon-logo-galoa">
+            <button>Saiba mais</button>
+        </div>
+        <div class="galoa-text">
+            <p><b>Preservar a memória do evento e ampliar o acesso ao conhecimento científico</b> gerado em eventos é a razão de ser da plataforma Galoá Proceedings.<br><br>Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica, mantendo aceso o debate científico fomentado pelos encontros e aumentando o impacto do evento.</p>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+    <script src="https://kit.fontawesome.com/62b25bdc6e.js" crossorigin="anonymous"></script>   
+</body>
+</html>
